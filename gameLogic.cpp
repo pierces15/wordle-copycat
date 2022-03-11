@@ -111,7 +111,7 @@ std::string GameLogic::generateAnswer() {
 
   int lineNum = rand() % 2315 + 0;
 
-  inFile.open("wordle-answers-alphabetical.txt");
+  inFile.open("config/wordle-answers-alphabetical.txt");
 
   for (int i = 1; i <= lineNum; i++) {
     std::getline(inFile, answer);
@@ -130,7 +130,7 @@ bool GameLogic::isValidGuess(std::string guess) {
   }
 
   ifstream inFile;
-  inFile.open("wordle-allowed-guesses.txt");
+  inFile.open("config/wordle-allowed-guesses.txt");
 
   string temp = "";
   bool isAllowed = false;
