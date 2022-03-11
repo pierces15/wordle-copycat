@@ -35,12 +35,20 @@ Selection:
 To select an option, simply type the first letter of the menu item (also included in the parentheses) and press enter.
 ```zsh
 Selection: r
+
+Enter your guess: 
 ```
-Congratulations you are now playing wordle-copycat! Type out your guess at each prompt and press enter to confirm your guess and you will be displayed how your word compares to the answer in classic Wordle fashion. At the end of each round you will be prompted whether you would like to play again on guessing another word or be directed back to the start menu to choose a different option. When you're done with the program simply type the following command to clean up the files.
+Congratulations you are now playing wordle-copycat! Type out your guess at each prompt and press enter to confirm your guess and you will be displayed how your word compares to the answer in classic Wordle fashion. At the end of each round you will be prompted whether you would like to play again on guessing another word or be directed back to the start menu to choose a different option. 
+
+Now it's time for you to play the game and have some fun!
+
+When you're done with the program simply type the following command to clean up the files.
 ```zsh
 make clean
 ```
-Now it's time for you to play the game and have some fun!
+
+
+
 
 ## TODO
 #### Known issues
