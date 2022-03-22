@@ -52,7 +52,7 @@ void GameLogic::playGame() {
   bool ranOutOfGuesses = true;
 
   string answer = generateAnswer();
-  //cout << answer << endl;
+  cout << answer << endl;
 
   string userGuess;
   
