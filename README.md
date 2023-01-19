@@ -58,5 +58,3 @@ make clean
 #### Needs improving
 - Career statistics should be written to file and read from when user wants to display their statistics
   - This way the statistics will act as true career statistics and stay even after the game has been closed
-- Pass by refrence everything
-  - There's really no need to be making copies of strings over and over again so I might as well convert text to upper case or lower case and just access that variables memory all of the time.
